@@ -1,0 +1,40 @@
+{
+  "name": "elephpant/updateservices",
+  "description": "Update services is a tool that you can use to let other people know that you've updated your blog. Similar to what WordPress does when sending an XML-RPC ping, automatically notifying popular update services when you update your blog.",
+  "keywords": [
+    "ElePHPant",
+    "UpdateServices",
+    "Ping",
+    "Blog",
+    "XML-RPC",
+    "Ping-o-Matic",
+    "SEO",
+    "Search Engine",
+    "Google",
+    "Bing",
+    "Yandex",
+    "Yahoo",
+    "Technorati",
+    "Sphere"
+  ],
+  "homepage": "https://www.uebi.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wilder Amorim",
+      "email": "agencia@uebi.com.br",
+      "homepage": "https://www.uebi.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-curl": "*",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ElePHPant\\UpdateServices\\": "src"
+    }
+  }
+}
